@@ -1,4 +1,4 @@
-var expect = require("chai").expect
+//var expect = require("chai").expect
 var greet = require("greet")
 describe('greet', function(){
   it("should greet a person by name", function() {
