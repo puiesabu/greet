@@ -2,7 +2,7 @@
   "name": "greet",
   "version": "0.0.0",
   "description": "A simple and naive greeter",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
     "greet": "./bin/greet.js"
   },
@@ -13,5 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "0.0.8"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
   }
 }
